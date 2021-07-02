@@ -80,6 +80,8 @@
 
 
 
+
+
 html {
 	overflow-x: hidden;
 	padding: 0 !important;
@@ -112,6 +114,8 @@ body.de_light {
 
 
 /* ================================================== */
+
+
 
 header {
 	width: 100%;
@@ -239,7 +243,7 @@ header.smaller #mainmenu ul ul {
 	top: 0px;
 }
 header.smaller {
-	height: 100px;
+	height: 120px;
 	background: #222324;
 	position: fixed;
 	z-index: 100;
@@ -5332,6 +5336,14 @@ a.read_more i {
 	margin: 0;
 	font-weight: bold;
 }
+
+.very-big-black {
+	font-size: 72px;
+	color: #000000;
+	margin: 0;
+	font-weight: bold;
+}
+
 .ultra-big-white {
 	font-size: 120px;
 	font-weight: bold;
