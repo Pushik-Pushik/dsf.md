@@ -78,6 +78,18 @@
 
 /* ================================================== */
 
+#tel-2{
+	position: absolute;
+	top: 20px;
+	right: 295px;
+}
+
+#tel-3{
+	position: absolute;
+	top: 38px;
+	right: 297px;
+}
+
 html {
 	overflow-x: hidden;
 	padding: 0 !important;
