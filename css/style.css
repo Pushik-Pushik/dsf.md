@@ -79,7 +79,31 @@
 /* ================================================== */
 
 
-
+.nr-1{
+	position: absolute;
+	left: 275px;
+	top: 0px;
+}
+.nr-2{
+	position: absolute;
+	left: 275px;
+	top: 15px;
+}
+.nr-3{
+	position: absolute;
+	left: 275px;
+	top: 30px;
+}
+.viber{
+	position: absolute;
+	left: 220px;
+	top: 50px;
+}
+.whatsapp {
+	position: absolute;
+	left: 300px;
+	top: 50px;
+}
 
 
 html {
@@ -3805,7 +3829,6 @@ a, a:hover, .test-column, .test-column:hover {
 .carousel-item .overlay-v {
 	font-family:"proxima-nova", Helvetica, Arial, sans-serif;
 	text-align: center;
-	width: 100px;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -3815,7 +3838,7 @@ a, a:hover, .test-column, .test-column:hover {
 	position: absolute;
 	width: 100%;
 	top: 80%;
-	font-size: 18px;
+	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 0px;
 	height: 0;
@@ -3823,19 +3846,19 @@ a, a:hover, .test-column, .test-column:hover {
 }
 .carousel-item .pf_text .title {
 	color: rgba(255, 255, 255, 1);
-	top: 75%;
+	top: 200px;
 }
 .carousel-item:hover .overlay-v {
 	background: rgba(0, 0, 0, .5);
 }
 .carousel-item:hover .pf_text .title {
 	color: rgba(255, 255, 255, 1);
-	top: 75%;
+	top: 200px;
 }
 .carousel-item .pf_text .title .type {
 	display: block;
 	color: rgba(255, 255, 255, 0);
-	font-size: 12px;
+	font-size: 20px;
 	font-weight: 300;
 }
 .carousel-item:hover .pf_text .title .type {
