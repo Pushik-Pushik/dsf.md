@@ -54,7 +54,7 @@
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.png) 8 8, move;
 }
 
@@ -70,7 +70,7 @@
 }
 
 /*----------------------------------------------------------------------
- *  Owl Carousel CSS3 Transitions 
+ *  Owl Carousel CSS3 Transitions
  *  v1.3.2
  */
 

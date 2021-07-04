@@ -139,7 +139,11 @@ body.de_light {
 
 /* ================================================== */
 
-
+.news img {
+	display: block;
+	max-width: auto;
+	height: auto;
+}
 
 header {
 	width: 100%;
@@ -396,6 +400,7 @@ header.de_header_2.smaller .info {
 	font-weight: 600;
 }
 #subheader h3{
+	color: white;
 	font-size: 48px;
 }
 #subheader span {
@@ -436,6 +441,7 @@ header.de_header_2.smaller .info {
 	color: rgba(255, 255, 255, .05);
 }
 #subheader p.lead {
+	color: white;
 	margin-top: 10px;
 }
 .de-navbar-left.de_light #subheader h1 {
@@ -4514,6 +4520,12 @@ p.intro {
 	position: relative;
 	overflow: hidden !important;
 }
+
+.image-slider-2{
+	position: absolute;
+	left: 100px;
+}
+
 .image-slider {
 	cursor: move;
 }
@@ -5835,6 +5847,7 @@ a.btn-slider:hover {
 	#testimonial-full blockquote {
 		padding: 20px;
 	}
+
 	#revolution-slider {}
 	nav {
 		width: 100%;
@@ -6196,6 +6209,7 @@ a.btn-slider:hover {
 	.container {
 		padding-left: 30px;
 		padding-right: 30px;
+	}
 	}
 	.feature-box-image, .pricing-box {
 		margin-bottom: 30px;
