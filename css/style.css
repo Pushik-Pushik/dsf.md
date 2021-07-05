@@ -1657,10 +1657,19 @@ a.btn-text-light {
 	left: 20px;
 }
 
-a.btn-custom, .btn-custom, .btn-custom-2, a.btn-slider, .btn-slider {
+a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;	
 	font-size: 16px;
 }
+.btn-custom-2{
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+}
+
+.h1-color {
+	color: #ffffff;
+}
+
 a.btn-custom, .btn-custom, .btn-custom-2 {
 	background: #eee;
 	color: #fff;
@@ -1956,7 +1965,7 @@ span.teaser {
 	color: #fff !important;
 }
 .de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6 {
-	color: #222324;
+	color: #150202;
 }
 .text-white {
 	color: #fff;
@@ -3080,6 +3089,27 @@ a.btn-left, a.btn-right {
 }
 
 /* margin top */
+
+a:link {
+	color: white;
+}
+
+a:active{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
 
 .mt0 {
 	margin-top: 0;
