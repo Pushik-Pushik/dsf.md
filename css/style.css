@@ -78,6 +78,11 @@
 
 /* ================================================== */
 
+.btn-center {
+	display: grid;
+	text-align: center;
+}
+
 
 .nr-1{
 	position: absolute;
@@ -1607,7 +1612,7 @@ a.btn-light.btn-id {
 a.btn-dark.btn-id {
 	color: #fff;
 }
-.btn-custom {
+.btn-custom, .btn-custom-2{
 	padding: 8px 10px 8px 10px;
 	font-weight: bold;
 }
@@ -1644,11 +1649,12 @@ a.btn-text-light {
 	position: absolute;
 	left: 20px;
 }
-a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
+
+a.btn-custom, .btn-custom, .btn-custom-2, a.btn-slider, .btn-slider {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;	
 	font-size: 16px;
 }
-a.btn-custom, .btn-custom {
+a.btn-custom, .btn-custom, .btn-custom-2 {
 	background: #eee;
 	color: #fff;
 	border-radius: 3px;
