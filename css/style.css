@@ -581,7 +581,7 @@ header.de_header_2.smaller .info {
 	opacity: 0;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;	
+	-webkit-border-radius: 3px;
 }
 #mainmenu li li {
 	display: block;
@@ -1658,7 +1658,7 @@ a.btn-text-light {
 }
 
 a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
-	font-family: "proxima-nova", Helvetica, Arial, sans-serif;	
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 .btn-custom-2{
@@ -3887,7 +3887,7 @@ a, a:hover, .test-column, .test-column:hover {
 	position: absolute;
 	width: 100%;
 	top: 80%;
-	font-size: 30px;
+	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 0px;
 	height: 0;
@@ -3895,14 +3895,14 @@ a, a:hover, .test-column, .test-column:hover {
 }
 .carousel-item .pf_text .title {
 	color: rgba(255, 255, 255, 1);
-	top: 200px;
+	top: 100px;
 }
 .carousel-item:hover .overlay-v {
 	background: rgba(0, 0, 0, .5);
 }
 .carousel-item:hover .pf_text .title {
 	color: rgba(255, 255, 255, 1);
-	top: 200px;
+	top: 100px;
 }
 .carousel-item .pf_text .title .type {
 	display: block;
@@ -5450,7 +5450,7 @@ a.btn-slider:hover {
 /* ================================================== */
 .isotope, .isotope .isotope-item {
 	/* change duration value to whatever you like */
-	
+
 	-webkit-transition-duration: 0.8s;
 	-moz-transition-duration: 0.8s;
 	-ms-transition-duration: 0.8s;
@@ -5681,8 +5681,8 @@ a.btn-slider:hover {
  */
 .mfp-fade.mfp-bg {
 	opacity: 0;
-	-webkit-transition: all 0.1s ease-out; 
-	-moz-transition: all 0.1s ease-out; 
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
 }
 .mfp-fade.mfp-bg.mfp-ready {
@@ -5694,8 +5694,8 @@ a.btn-slider:hover {
 
 .mfp-fade.mfp-wrap .mfp-content {
 	opacity: 0;
-	-webkit-transition: all 0.1s ease-out; 
-	-moz-transition: all 0.1s ease-out; 
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
 }
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
@@ -5746,7 +5746,7 @@ a.btn-slider:hover {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 768px
 	/* ================================================== */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -6097,7 +6097,7 @@ a.btn-slider:hover {
 		background: url(../images/ui/arrow-up-dark.png) center no-repeat;
 	}
 	/* header light */
-	
+
 	.header-light #mainmenu ul li a, .header-light #mainmenu ul li a:hover {
 		color: #333 !important;
 	}
@@ -6164,15 +6164,15 @@ a.btn-slider:hover {
 	.sm-hide {
 		display: none;
 	}
-	
+
 	h1.very-big{
 		font-size:90px;
 		font-weight:bold;
 	}
 }
 
-/* -------------------------------------------------- 
-	custom for 320px & 480px 
+/* --------------------------------------------------
+	custom for 320px & 480px
 	/* -------------------------------------------------- */
 @media only screen and (max-width: 767px) {
 	.pricing-2-col .pricing-box, .pricing-3-col .pricing-box, .pricing-4-col .pricing-box, .pricing-5-col .pricing-box {
@@ -6228,15 +6228,15 @@ a.btn-slider:hover {
 	.pf_full_width.gallery_border .item {
 		width: 48.9% !important;
 	}
-	
+
 	h1.very-big{
 		font-size:60px;
 	}
-	
+
 	h1.big, .h1_big{
 		font-size:36px;
 	}
-	
+
 	.display-table [class*="col-"] {
 	display: block;
 	vertical-align: top;
@@ -6245,7 +6245,7 @@ a.btn-slider:hover {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -6263,7 +6263,7 @@ a.btn-slider:hover {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 320px
 	/* -------------------------------------------------- */
 @media only screen and (max-width: 480px) {
